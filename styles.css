@@ -1,0 +1,471 @@
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.bg-container {
+    background-image: radial-gradient( circle farthest-corner at 6.3% 21.8%,  rgba(236,6,117,1) 0%, rgba(13,32,67,1) 90% );
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    background-position: center;
+}
+.nav-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+}
+.portfolio-heading {
+    color: #ffffff;
+    font-family: Corbel;
+    font-size: 36px;
+}
+.portfolio-heading:hover {
+    color: blueviolet;
+}
+.nav-items {
+    color: white;
+    text-decoration: none;
+    font-family: Corbel;
+    margin-left: 30px;
+    font-size: 24px;
+}
+.nav-items:hover{
+    transform: scale(1.05);
+    color: rgb(115, 3, 52);
+}
+.main-heading {
+    color: #ffffff;
+    font-family: Corbel;
+    font-size: 40px;
+}
+.main-heading-2 {
+    color: #ffffff;
+    font-family: Corbel;
+    font-size: 50px;
+}
+.main-span-heading {
+    color: rgb(115, 3, 52);
+    font-family: Corbel;
+    font-size: 50px;
+    font-weight: 50px;
+}
+.main-desc {
+    color: white;
+    font-family: Corbel;
+    font-size: 20px;
+    padding-bottom: 12px;
+}
+.my-image {
+    height: 500px;
+    width: 400px;
+    border-radius: 300px;
+}
+img.my-image {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+img.my-image {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 110px;
+}
+.matter-container {
+    display: flex;
+    flex-direction: column;
+}
+.insta-icon {
+    height: 30px;
+    width: 30px;
+    background-color: none;
+    cursor: pointer;
+}
+.linkedin-icon {
+    height: 30px;
+    width: 30px;
+    background-color: none;
+    cursor: pointer;
+    margin-left: 3px;
+}
+.gmail-icon {
+    height: 30px;
+    width: 30px;
+    background-color: none;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+
+
+
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-position: center;
+    min-height: 80vh;
+    width: 100%;
+    margin: auto;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(178,0,184,1) 0%, rgba(71,0,159,1) 90% );
+}
+@keyframes slideLeft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.about-heading-section {
+    color: #ffffff;
+    font-family: Corbel;
+    font-size: 50px;
+    display: block;
+    animation: reveal 3s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
+}
+.about-desc-section {
+    color: #ffffff;
+    font-family: Corbel;
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+}
+.about-span-heading-section {
+    color: rgb(115, 3, 52);
+    font-family: Corbel;
+}
+
+
+
+
+
+.skills-section {
+    background-image: radial-gradient( circle farthest-corner at 6.3% 21.8%,  rgba(236,6,117,1) 0%, rgba(13,32,67,1) 90% );
+    position: relative;
+    background-position: center;
+    min-height: 80vh;
+    width: 100%;
+    margin: 0px;
+    padding-top: 150px;
+    padding-bottom: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.skills-heading {
+    color: #ffffff;
+    font-family: Corbel;
+    font-size: 50px;
+    text-align: center;
+    padding-left: 150px;
+}
+.skills-heading-container {
+    text-align: center;
+}
+.skills-span-heading {
+    color: rgb(115, 3, 52);
+    font-family: Corbel;
+    text-align: center;
+}
+.icon-images {
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    background-color: transparent;
+    mix-blend-mode: color-burn;
+}
+.icon-heading {
+    color: #ffffff;
+    font-family: Corbel;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+}
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 80px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.icon-container:hover {
+    background: rgb(210, 188, 188);
+    cursor: pointer;
+    transition: 1s;
+    opacity: 1s;
+    transform: 1s;
+    transform: scale(1.05);
+}
+.icons-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 30px;
+    max-width: 1000px;
+    margin: 40px auto 0;
+    padding: 0 20px;
+    padding-right: 200px;
+    margin-left: 350px;
+}
+
+
+
+
+
+.services-section {
+    background-image: radial-gradient( circle farthest-corner at 6.3% 21.8%,  rgba(236,6,117,1) 0%, rgba(13,32,67,1) 90% );
+    position: relative;
+    background-position: center;
+    min-height: 80vh;
+    width: 100%;
+    margin: 0px;
+    padding-bottom: 200px;
+    padding-top: 150px;
+}
+.services-list-section {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    max-width: 1000px;
+    margin: 40px auto 0;
+    padding: 0 20px;
+    padding-right: 200px;
+    margin-left: 420px;
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.services-desc {
+    color: #ffffff;
+    font-family: Corbel;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+.services-icon-heading {
+    color: #ffffff;
+    font-family: Corbel;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 20px;
+}
+.section-icon-container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    padding: 30px;
+    max-height: 600px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.section-icon-container:hover {
+    border-color: rgb(210, 188, 188);
+    cursor: pointer;
+    transition: 1s;
+    opacity: 1s;
+    transform: 1s;
+}
+.service-icon-images {
+    height: auto;
+    max-width: 80px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: transparent;
+    mix-blend-mode: color-burn;
+}
+
+
+
+
+.certificates-section {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-position: center;
+    min-height: 80vh;
+    width: 100%;
+    margin: auto;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(178,0,184,1) 0%, rgba(71,0,159,1) 90% );
+}
+.certificates-image {
+    height: 300px;
+    width: 400px;
+    cursor: pointer;
+}
+.certificates-container-section {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.certificates-container:hover {
+    transform: scale(1.05);
+}
+
+
+
+.last-section {
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(178,0,184,1) 0%, rgba(71,0,159,1) 90% );
+}
+.last-heading-section {
+    color: #ffffff;
+    font-family: Corbel;
+    font-size: 30px;
+    padding-top: 16px;
+}
+.last-desc-section {
+    color: #ffffff;
+    font-family: Corbel;
+    font-size: 16px;
+    width: 100%;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+.last-span-heading-section {
+    color: rgb(115, 3, 52);
+    font-family: Corbel;
+}
+.email-heading {
+    color: #ffffff;
+    font-family: Corbel;
+}
+.email {
+    color: rgb(115, 3, 52);
+    font-family: Corbel;
+    font-weight: bold;
+}
+.made-heading {
+    color: #ffffff;
+    font-family: Corbel;
+}
+.made {
+    color: rgb(115, 3, 52);
+    font-family: Corbel;
+    font-weight: bold;
+}
+.linkedin-heading {
+    color: #ffffff;
+    font-family: Corbel;
+}
+.linkedin {
+    color: rgb(115, 3, 52);
+    font-family: Corbel;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+.my-desc {
+    color: #ffffff;
+    font-family: Corbel;
+    font-size: 18px;
+    width: 100%;
+    padding-top: 20px;
+    width: 45%;
+}
+
+.icons-container {
+    padding-top: 14px;
+}
+.quick-links-section {
+    color: #ffffff;
+    font-family: Corbel;
+    font-size: 20px;
+    padding-top: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.links-section {
+    color: white;
+    text-decoration: none;
+    font-family: Corbel;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+}
+.links-section:hover {
+    color: rgb(115, 3, 52);
+}
+.touch-heading-section{
+    color: #ffffff;
+    font-family: Corbel;
+    font-size: 24px;
+    padding-top: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.contact-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+}
+.made-section {
+    color: #ffffff;
+    font-family: Corbel;
+    font-size: 18px;
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+    padding: 50px;
+}
+hr {
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(178,0,184,1) 0%, rgba(71,0,159,1) 90% );   
+}
